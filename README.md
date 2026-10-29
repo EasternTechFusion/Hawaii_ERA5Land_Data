@@ -1,4 +1,4 @@
-# Hawaiian_VPD_Data
+# Hawaii_VPD_Data
 
 Hourly meteorological data for Hawaiʻi from 1950 to 2026, based on the ERA5-Land reanalysis, together with derived **Vapor Pressure Deficit (VPD)** and related variables.
 
