@@ -8,12 +8,14 @@ Hourly meteorological data for Hawaiʻi from 1950 to 2026, based on the ERA5-Lan
 |------|------|-------------|
 | `1950_2026_Data.csv` | 673,259 | Raw hourly ERA5-Land variables, 1950-01-01 01:00 to 2026-10-22 16:00 |
 | `Processed_1950_2026_Data.csv` | 673,259 | Same period with unit conversions and derived variables (VPD, relative humidity) |
-| `era5_hawaii_1950.csv` | 8,759 | Raw data for the year 1950 only (a subset of `1950_2026_Data.csv`) |
+| `era5_hawaii_1950.csv` to `era5_hawaii_2026.csv` | one file per year | Raw hourly data split by year, 1950 to 2026 (the same data as `1950_2026_Data.csv`, same columns) |
 
 ```
 Hawaliian_VPD_Data/
-├── Raw_Data/          # 1950_2026_Data.csv, era5_hawaii_1950.csv
-├── Processed_Data/    # Processed_1950_2026_Data.csv
+├── Raw_Data/        
+|   └── All_Hourly_Data        # era5_hawaii_1950.csv to era5_hawaii_2026.csv
+|   └── Hourly_Data_By_Year    # 1950_2026_Data.csv
+├── Processed_Data/            # Processed_1950_2026_Data.csv
 └── README.md
 ```
 
